@@ -1,3 +1,4 @@
+import java.util.*;
 class iEnum
 {
 	enum Device{
@@ -12,4 +13,19 @@ class iEnum
 			}
 				System.out.println("Hello");
 		}
+}
+
+class MyEnum
+{
+	List<String> list = new ArrayList<String>();
+	
+	public void add(String str)
+	{
+		list.add(str);
+	}
+	
+	public String get(int index)
+	{
+		return list.get(index);
+	}
 }
